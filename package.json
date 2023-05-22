@@ -1,0 +1,23 @@
+{
+  "name": "advanced-node",
+  "version": "1.0.0",
+  "description": "Application with a log aggregator",
+  "main": "index.js",
+  "scripts": {
+    "local": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumyaakumarasinghe/Advanced-Node.js.git"
+  },
+  "author": "Saumya Kumarasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumyaakumarasinghe/Advanced-Node.js/issues"
+  },
+  "homepage": "https://github.com/saumyaakumarasinghe/Advanced-Node.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
