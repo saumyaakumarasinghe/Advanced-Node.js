@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
+app.use(express.json());
+
 const student = require('./routes/student.route');
 
 app.use("/api/student", student);
