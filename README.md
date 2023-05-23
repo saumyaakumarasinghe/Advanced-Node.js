@@ -1,2 +1,2 @@
 # Advanced-Node.js
-Node.js application with a log aggregator
+Node.js + express + postgres (connect NodeJS application to postgres) + Sequelize migrations and seed data + 
