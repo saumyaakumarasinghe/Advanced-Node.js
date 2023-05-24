@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "saumya010",
+    "database": "advanced_node_test_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "Saumya",
+    "password": null,
+    "database": "advanced_node_test_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Saumya",
+    "password": null,
+    "database": "advanced_node_test_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
