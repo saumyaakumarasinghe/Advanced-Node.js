@@ -1,14 +1,14 @@
 const express = require('express');
 
+const port = 3000;
 const app = express();
-const PORT = 3000;
 
 app.use(express.json());
 
-const student = require('./routes/student.route');
+const user = require('./routes/user.route');
 
-app.use("/api/student", student);
+app.use("/api/user", user);
 
-app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
+app.listen(port, () => console.log(`App listening on port ${port}`));
 
 module.exports = app;
