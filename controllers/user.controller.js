@@ -10,6 +10,9 @@ const signup = async (req, res) => {
   try {
     let { email, password } = req.body;
 
+    email = email.replace( /\s/g, '');
+    console.log(email);
+    
     const emailExists = await db[modelName].findOne({
       where: {
         email,
