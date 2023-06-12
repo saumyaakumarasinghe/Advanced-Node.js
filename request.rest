@@ -4,19 +4,17 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1L
 ###
 
 POST http://localhost:3000/api/user/signup
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1LCJuYW1lIjoiTWlsbyIsImVtYWlsIjoibWlsb0BnbWFpbC5jb20iLCJjcmVhdGVkQXQiOiIyMDIzLTA1LTI1VDEyOjEwOjEyLjk4MVoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA1LTI1VDEyOjEwOjEyLjk4MVoifSwiZXhwaXJlSW4iOiIyNGgiLCJpYXQiOjE2ODUwMzYzOTF9.WFvZtR7xutwEzCGduKit6tJYalbnee_2FvgACgfac3I
 Content-Type: application/json
 
 {
     "name": "Saumya",
-    "email": "saumya@gmail.com",
+    "email": "saumya@gm   il.com",
     "password": "saumya010"
 }
 
 ###
 
 POST http://localhost:3000/api/user/login
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1LCJuYW1lIjoiTWlsbyIsImVtYWlsIjoibWlsb0BnbWFpbC5jb20iLCJjcmVhdGVkQXQiOiIyMDIzLTA1LTI1VDEyOjEwOjEyLjk4MVoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA1LTI1VDEyOjEwOjEyLjk4MVoifSwiZXhwaXJlSW4iOiIyNGgiLCJpYXQiOjE2ODUwMzYzOTF9.WFvZtR7xutwEzCGduKit6tJYalbnee_2FvgACgfac3I
 Content-Type: application/json
 
 {
