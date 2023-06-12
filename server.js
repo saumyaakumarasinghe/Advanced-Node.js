@@ -1,13 +1,18 @@
-// const Pool = require('pg').Pool;
+const chalk = require("chalk");
+const http = require("http");
 
-// const pool = new Pool({
-//     user: 'postgres',
-//     host: 'localhost',
-//     database: 'advanced_node_test_db',
-//     password: 'saumya010',
-//     port: 5432
-// });
+const port = process.env.PORT || 9000;
+const app = require("./app");
 
-// module.exports = pool;
+const server = http.createServer(app);
 
-// // const express = require('express');
+server.listen(port, () => {
+  console.log(
+    chalk.white.bgGreen.bold(" PORT ") +
+      chalk.white.bgBlue.bold(` ${port} `) +
+      chalk.white.bgGreen.bold(" MODE ") +
+      chalk.white.bgRed.bold(` ${process.env.NODE_ENV} `)
+  );
+});
+
+module.exports = server;
