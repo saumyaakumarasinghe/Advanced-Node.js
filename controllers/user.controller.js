@@ -83,12 +83,12 @@ const login = async (req, res) => {
 
 const getAll = async (req, res) => {
   try {
-    // const query = `SELECT * FROM users`;
-    // const data = await db.sequelize.query(query,{
-    //     type: db.sequelize.QueryTypes.SELECT
-    // });
+    const query = `SELECT * FROM users`;
+    const data = await db.sequelize.query(query,{
+        type: db.sequelize.QueryTypes.SELECT
+    });
 
-    const data = await db[modelName].findAll();
+    // const data = await db[modelName].findAll();
 
     res.status(200).json(data);
   } catch (error) {
